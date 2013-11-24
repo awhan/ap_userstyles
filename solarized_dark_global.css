@@ -1,7 +1,6 @@
-/* based on http://userstyles.org/styles/18192/nightshift-eye-care */
-
 @namespace url(http://www.w3.org/1999/xhtml);
  
+
 /*
 http://ethanschoonover.com/solarized
 
@@ -37,42 +36,49 @@ min-height: 100%!important;
 
 html, body {
 /*background-color:#111!important;*/
-background-color: #002b36 !important ;
+background-color: #002b36 !important;
+/*background-color: red !important;*/
 }
 
 body>*:not(:empty) {
 /* background-color:#222!important ; */
-background-color: #002b36 !important ;
+background-color: #002b36 !important;
+/*background-color: black !important;*/
 }
 
 body>*>*:not(:empty) { 
 /* background-color:#222!important; */
 background-color: #002b36 !important ;
+/* background-color: pink !important ; */
 }
 
 body>*>*>*:not(:empty){
 /*background-color:#282828!important;*/
 background-color: #002b36 !important ;
+/*background-color: brown !important ;*/
 }
 
 body>*>*>*>*:not(:empty){
 /*background-color:#282828!important*/
-background-color: #002b36 !important ;
+background-color: #002b36 !important ; */
+/*background-color: cyan !important ;*/
 }
 
 body>*>*>*>*>*:not(:empty){
 /*background-color:#383838!important; */
 background-color: #002b36 !important ;
+/*background-color: gold !important ;*/
 }
 
 body>*>*>*>*>* *{
 /* background-color:#383838!important */
-background-color: #002b36 !important ;
+background-color: transparent !important ;
 }
 
 body table:not(:empty){
 /* background-color:#282828!important; */
-background-color: #002b36 !important ;
+/*background-color: #002b36 !important ;*/
+background-color: green !important ;
 }
 
 body table>tbody>tr:nth-child(even){ 
@@ -85,7 +91,9 @@ body table>tbody>tr>td:nth-child(odd){
 
 body *:empty {
 /* background-color: #111!important */
-  background-color: #002b36 !important
+background-color: transparent !important;
+/* background-color: yellow !important */
+/* causes vimeo video block on mouse hover, so set it to transparent*/
 }
 
 body p:not(:empty), body p *, body h1, body h1 *, body h2, body h2 *, 
@@ -150,8 +158,15 @@ text-decoration: underline !important;
 
 body a:hover, body a:hover *{
 /* color: #D9C077!important; */
-color: #6c71c4 !important; 
+color: #6c71c4 !important;
+color: #859900 !important; 
 text-decoration: underline!important;
+}
+
+/* http://line25.com/articles/10-usability-crimes-you-really-shouldnt-commit */
+a:visited {
+color: #d33682!important; 
+color: brown !important; 
 }
 
 body img,a[href] img, a[href] button, input[type="image"],*[onclick]:empty, 
